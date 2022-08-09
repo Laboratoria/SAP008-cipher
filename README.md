@@ -33,7 +33,8 @@ Meu projeto Devcifrando, foi desenvolvido durante o período de Bootcamp na qual
 
 O projeto tem como objetivo, criar um espaço, onde o usuário consiga Cifrar e Descifrar suas mensagens de texto. Para sua criação, foram utilizadas as aplicações de HTML, CSS e Linguagem JavaScript. A lógica do projeto teve como base o sistema de cifragem da Cifra de César, possibilitando que o usuário cifre ou decifre um texto indicando uma chave de deslocamento. Baseou-se no protótipo de baixa fidelidade desenhado abaixo:
 
-(adicionar foto do protótipo)
+![img](prototipo.png)
+
 
 Meu tema foi baseado nos indecifraveis códigos verdes de Matrix. Desenvolvi o projeto, com o objetivo de conseguirmos Codificar e Descodificar nossas mensagens, por esse sistema senciente. 
 
