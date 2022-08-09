@@ -13,16 +13,16 @@
       <h1>Devcifrando</h1>
       <div class="div-container">
         <div class="rounded-div">
-          <label>Entrada</label>
-          <input type="text" id="msg" placeholder="Digite aqui o seu texto"/><br/>
-          <label>deslocamento</label>
+          <label>Mensagem de entrada</label>
+          <textarea type="text" id="msg" placeholder="Digite aqui o seu código matrix"></textarea><br/>
+          <label>Deslocamento</label>
           <input type="number" id="deslocamento" value="1" /><br/>
-          <button id="encode" class="btn-trigger">Encode</button>
-          <button id="decode" class="btn-trigger">Decode</button>
+          <button id="encode" class="btn-trigger">Cifrar</button>
+          <button id="decode" class="btn-trigger">Descifrar</button>
         </div>
         <div class="rounded-div">
-          <label>Output</label>
-          <input type="text" id="cipher-output" disabled value="">
+          <label>Mensagem de saída</label>
+          <textarea type="text" id="cipher-output" placeholder="Mensagem de retorno" disabled value=""></textarea>
         </div>
       </div>
   </div>
