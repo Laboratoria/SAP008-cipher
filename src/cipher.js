@@ -22,7 +22,8 @@ const cipher = {
       console.log(`${letra_atual} com codigo ${codigo_letra_atual} vira ${letra_decodada} codigo: ${codigo_letra_decodada}`);
     }
     return decoded;
-  },
+  }
+
   encode: function (desloc,msg){
     this.valida_parametros(desloc,msg)
     let encoded = ""

@@ -1,3 +1,14 @@
+
+body{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Matrix';
+}
+
+
 #root{
     background-color: transparent;
     color: rgb(14, 247, 14);
@@ -30,17 +41,3 @@
     font-size: 35px;
 }
 
-body{
-    background-image: url("https://i.giphy.com/media/AOSwwqVjNZlDO/giphy.webp");
-    background-repeat: no-repeat;
-    background-size: 100% 100vh;
-    text-align: center;
-    font-size: 35px;
-    font-family: 'Matrix';
-}
-
-@font-face {
-    font-family: Matrix;
-    src: url('Fonte/matrix.ttf')
-    format('truetype');
-}
