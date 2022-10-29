@@ -1,43 +1,14 @@
-
-body{
-    background-color: black;
-    background-repeat: no-repeat;
-    background-size: 100% 100vh;
-    text-align: center;
-    font-size: 35px;
-    font-family: 'Matrix';
+@font-face {
+    font-family: gaegu;
+    src: url(./fonts/Gaegu-Light.ttf) format('truetype');
 }
-
 
 #root{
-    background-color: transparent;
-    color: rgb(14, 247, 14);
-    }
-
-
-#msg, #cipher-output, #deslocamento{
-    display: block;
-    flex: 60%;
-    background: transparent;
-    color: rgb(14, 247, 14);
-    text-align: center;
-    margin-bottom: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 20px;
-    margin: auto;
+    background-image: url("bc.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'gaegu';
+    color: white;
+    width: 100%;
+    height: 100vh;
 }
-
-
-
-.btn-trigger{
-    border: none;
-    border-radius: 50% ;
-    padding: 10px;
-    background-color: transparent;
-    color: rgb(14, 247, 14);
-    text-align: center;
-    font-family: 'Matrix';
-    font-size: 35px;
-}
-
