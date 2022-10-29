@@ -4,7 +4,7 @@ const cipher = {
     let decoded = "";
     let msg_len = msg.length;
     const ultima_letra = 90;
-  
+
     for (let contador= 0; contador < msg_len; contador++){
       let codigo_letra_atual = msg.charCodeAt(contador);
       let letra_atual = msg[contador];
@@ -22,8 +22,7 @@ const cipher = {
       console.log(`${letra_atual} com codigo ${codigo_letra_atual} vira ${letra_decodada} codigo: ${codigo_letra_decodada}`);
     }
     return decoded;
-  }
-
+  },
   encode: function (desloc,msg){
     this.valida_parametros(desloc,msg)
     let encoded = ""
@@ -51,7 +50,7 @@ const cipher = {
     if ('number' != typeof (desloc) || 'string' != typeof (msg))
       throw TypeError();
   }
-    
+
 };
 
 export default cipher;
