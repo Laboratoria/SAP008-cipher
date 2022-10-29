@@ -1,0 +1,43 @@
+@font-face {
+    font-family: gaegu;
+    src: url(./fonts/Gaegu-Light.ttf) format('truetype');
+}
+
+body{
+    background-image: url("bc.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'gaegu';
+    color: white;
+    width: 100%;
+    height: 100vh;
+    border-radius: solid 2px #ec03ba;;
+}
+
+#root {
+    font-size: 35px;
+    padding: 15%;
+}
+
+.estilo{
+    font-size: 40px;
+}
+
+.btn-trigger{
+    font-size: 20px;
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    color: white;
+    background-color: plum
+}
+
+.btn-trigger:hover{
+    background-color: purple;
+
+}
+
+
+#cipher-output{
+    background-color: white;
+}

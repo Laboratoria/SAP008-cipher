@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Devcifrando</title>
+  <link rel="icon" href="desc.ico">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css" />
+</head>
+  <body>
+    <div id="root">
+      <h1>Devcifrando</h1>
+      <div class="div-container">
+        <div class="estilo">
+          <label>Mensagem de entrada</label>
+          <textarea type="text" id="msg" placeholder="Digite aqui o seu código matrix"></textarea><br/>
+          <label>Deslocamento</label>
+          <input type="number" id="deslocamento" value="1" /><br/>
+          <button id="encode" class="btn-trigger">Cifrar</button>
+          <button id="decode" class="btn-trigger">Descifrar</button>
+        </div>
+        <div class="rounded-div">
+          <label>Mensagem de saída</label>
+          <textarea type="text" id="cipher-output" placeholder="Mensagem de retorno" disabled value=""></textarea>
+        </div>
+      </div>
+  </div>
+  <script src="index.js" type="module"></script>
+  </body>
+</html>
